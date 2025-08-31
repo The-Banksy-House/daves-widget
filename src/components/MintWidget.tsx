@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { useAccount, useReadContract, useWaitForTransactionReceipt } from 'wagmi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { BATCH_MINTER_ABI, BATCH_MINTER_ADDRESS } from '../lib/contracts';

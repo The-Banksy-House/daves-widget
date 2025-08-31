@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const ErrorMessage = ({ error }: { error: string }) => {
   const parseError = (errMsg: string): string => {
     if (errMsg.includes('Name already taken')) return 'This DAVE name has already signed.';

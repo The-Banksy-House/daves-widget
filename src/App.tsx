@@ -1,4 +1,3 @@
-import React from 'react';
 import { Web3Provider } from './lib/wagmi';
 import MintWidget from './components/MintWidget';
 import './App.css';
